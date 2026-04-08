@@ -1,0 +1,12 @@
+#include <stdio.h> // 헤더예요. 이것으로 printf 에 대한 정의를 
+
+int main() {
+    int dan = 5; 
+    int i;
+
+    for (i = 0; i < 9; i++) {
+        printf("%d * %d = %d\n", dan, i, dan * i); // 세미콜론이 빠졌어요. 출력하는 함수로 정수 출력해요. 
+    }
+
+    return 0;
+}
